@@ -35,6 +35,7 @@ public class Day_1_git extends BaseCls_UsrDfindCls {
 	@Test
 	public void test1() {
 		launchUrl("https://www.facebook.com/");
+		passValue_xpath("//*[@id='email']", "parvez");
 		
 	}
 
