@@ -36,8 +36,8 @@ public class Day_1_git extends BaseCls_UsrDfindCls {
 	public void test1() {
 		launchUrl("https://www.facebook.com/");
 		passValue_xpath("//*[@id='email']", "parvez");
-		passValue_xpath("//*[id='pass']", "721456");
-		
+		clickXpath("(//*[@role='button'])[2]");
+		System.out.println("found");
 	}
 
 
